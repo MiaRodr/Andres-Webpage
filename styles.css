@@ -1,26 +1,31 @@
 body{
-    font-family:'MinionPro', sans-serif, 'Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
 }
 
 #header{
-   display: flex;
+    display: flex;
    flex-direction: row;
    justify-content: space-around;
-   align-items: center;
    background-color: darkgrey;
+}
+
+#header > .name{
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
 }
 
 #navbar{
     font-weight: 550;
     width: 30vw;
+    padding-top: 5px;
 }
 
 a{
     color: white;
     text-decoration: none;
-    padding: 2rem 2rem;
     font-size: 1.5em;
     box-shadow: inset 0 0 0 0 white;
     margin: 0 -.25rem;
@@ -42,7 +47,7 @@ li{
     list-style: none;
 }
 
-h2, .quote, .quotetwo{
+h2, p{
     color: white;
 }
 
@@ -54,18 +59,14 @@ h2, .quote, .quotetwo{
 img{
     max-width: 100%;
 }
+
 .quote{
     position: absolute;
     top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 35px;
+    font-size: 18px;
 }
 
-.quotetwo{
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 20px;
-}
+
+
