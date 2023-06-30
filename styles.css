@@ -1,5 +1,5 @@
 body{
-    font-family:'Times New Roman', Times, serif;
+    font-family:'optima', sans-serif, Verdana;
     margin: 0;
     padding: 0;
 }
@@ -9,7 +9,8 @@ body{
    flex-direction: row;
    justify-content: space-around;
    align-items: center;
-   background-color: dimgray;
+   background-color: grey;
+   
 }
 
 a{
@@ -29,6 +30,30 @@ li{
     list-style: none;
 }
 
-h1{
+h2, .quote, .quotetwo{
     color: white;
+}
+
+.skyline{
+    position: relative;
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+}
+.quote{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+}
+
+.quotetwo{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
 }
