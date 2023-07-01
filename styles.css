@@ -84,11 +84,16 @@ li{
 
 .headshot > img{
    width: 400px;
-   padding-top: 75px;
+   padding-top: 50px;
 }
 
 .about{
-    color: black;
+    color: grey;
     max-width: 400px;
-    padding-bottom: 150px;
+    padding-bottom: ;
+}
+
+.about > h2{
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
 }
