@@ -90,7 +90,37 @@ li{
 .about{
     color: grey;
     max-width: 400px;
-    padding-bottom: ;
+    position: relative;
+    width: 400px;
+    height: 560px;
+    padding: 20px;
+    margin: 25px;
+    background: white;
+    border: none;
+    text-align: center;
+}
+
+.about::before,
+.about::after{
+    position: absolute;
+    width: 33px;
+    height: 20px;
+    content: "";
+    padding-top: 150px;
+}
+
+.about::before{
+    left: 0;
+    top: 0;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+}
+
+.about::after{
+    right: 0;
+    bottom: 0;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
 }
 
 .about > h2{
