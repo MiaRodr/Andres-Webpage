@@ -2,8 +2,7 @@
 
 body{
     font-family:'Times New Roman', Times, serif;
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
 }
 
 #header{
@@ -22,9 +21,8 @@ body{
 
 #navbar{
     font-weight: 400;
-    width: 40vw;
+    width: 60vw;
     padding-top: 20px;
-
 }
 
 a{
@@ -41,6 +39,7 @@ a:hover{
     box-shadow: inset 200px 0 0 0 white;
     color: darkgrey
 }
+
 ul{
     display: flex;
     flex-direction: row;
@@ -85,7 +84,8 @@ li{
 
 .headshot > img{
    width: 400px;
-   padding-top: 50px;
+   padding-top: 15px;
+   padding-right: 25px;
 }
 
 .about{
@@ -95,6 +95,7 @@ li{
     width: 400px;
     height: 560px;
     padding: 20px;
+    padding-left: 25px;
     margin: 25px;
     background: white;
     border: none;
