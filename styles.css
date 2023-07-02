@@ -204,9 +204,17 @@ input[type="submit"]{
 }
 
 .contact-details {
+    margin-left: 165px;;
     font-size: 18px;
-    margin-right: 80px;
 }
 
+.contact-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  border-bottom: 2px solid gray;
+  padding-bottom: 15px;;
+}
    
     
