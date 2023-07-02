@@ -80,6 +80,7 @@ li{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    padding-top: 50px;
 }
 
 .headshot > img{
@@ -97,7 +98,7 @@ li{
     margin: 25px;
     background: white;
     border: none;
-    text-align: center;
+    text-align: left;
 }
 
 .about::before,
@@ -112,15 +113,15 @@ li{
 .about::before{
     left: 0;
     top: 0;
-    border-left: 3px solid black;
-    border-top: 3px solid black;
+    border-left: 2px solid grey;
+    border-top: 2px solid grey;
 }
 
 .about::after{
     right: 0;
     bottom: 0;
-    border-right: 3px solid black;
-    border-bottom: 3px solid black;
+    border-right: 2px solid grey;
+    border-bottom: 2px solid grey;
 }
 
 .about > h2{
