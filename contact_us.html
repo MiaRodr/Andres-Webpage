@@ -21,5 +21,45 @@
         </ul>
     </nav>
     </header>
+    <div class="contact-form">
+        <h6 class="contact-form_subheadline">Andres Peña</h6>
+        <h2 class="contact-form_heading">CONTACT</h2>
+        <div class="contact-form-container-form">
+            <h4>ONLINE INQUIRY</h4>
+            <form data-type="contact-form" class="contact-form">
+                <div class="name-input">
+                    <label for="contactFullName>">Full name:</label>
+                    <input id="contactFullName" name="name" type="text" value class="text-input"
+                    required placeholder="NAME">
+                </div>
+                <div class="email">
+                    <label for="contactEmail>">Email:</label>
+                    <input id="contactEmail" name="email" type="email" value class="text-input"
+                    required placeholder="EMAIL">
+                </div>
+                <div class="phone">
+                    <label for="contactNumber>">Phone:</label>
+                    <input id="phone" name="phone" type="tel" value class="text-input"
+                    required placeholder="PHONE"
+                </div>
+                <div class="select-interest">
+                    <label for="contact-interests">Your Interest:</label>
+                    <select class="dropdown" id="dropdown">
+                        <option value="">SELECT AN INTEREST</option>
+                        <option value="BUYING">BUYING</option>
+                        <option value="SELLING">SELLING</option>
+                        <option value="MEDIA">MEDIA</option>
+                        <option value="AREA INFORMATION">AREA INFORMATION</option>
+                        <option value="HOME VALUATION">HOME VALUATION</option>
+                        <option value="OTHER">OTHER</option>
+                    </select>
+                    <div class="textarea">
+                        <label for="contact-commment">Comment:</label>
+                        <textarea name="message" id="contact-comment" cols="30" rows="10" value placeholder="Message" required></textarea>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
