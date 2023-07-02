@@ -6,6 +6,7 @@
     <meta name="google" value="notranslate">
     <title>Contact Us</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/cf8393bf94.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header id="header">
@@ -21,45 +22,38 @@
         </ul>
     </nav>
     </header>
-    <div class="contact-form">
-        <h6 class="contact-form_subheadline">Andres Peña</h6>
-        <h2 class="contact-form_heading">CONTACT</h2>
-        <div class="contact-form-container-form">
-            <h4>ONLINE INQUIRY</h4>
-            <form data-type="contact-form" class="contact-form">
-                <div class="name-input">
-                    <label for="contactFullName>">Full name:</label>
-                    <input id="contactFullName" name="name" type="text" value class="text-input"
-                    required placeholder="NAME">
-                </div>
-                <div class="email">
-                    <label for="contactEmail>">Email:</label>
-                    <input id="contactEmail" name="email" type="email" value class="text-input"
-                    required placeholder="EMAIL">
-                </div>
-                <div class="phone">
-                    <label for="contactNumber>">Phone:</label>
-                    <input id="phone" name="phone" type="tel" value class="text-input"
-                    required placeholder="PHONE"
-                </div>
-                <div class="select-interest">
-                    <label for="contact-interests">Your Interest:</label>
-                    <select class="dropdown" id="dropdown">
-                        <option value="">SELECT AN INTEREST</option>
-                        <option value="BUYING">BUYING</option>
-                        <option value="SELLING">SELLING</option>
-                        <option value="MEDIA">MEDIA</option>
-                        <option value="AREA INFORMATION">AREA INFORMATION</option>
-                        <option value="HOME VALUATION">HOME VALUATION</option>
-                        <option value="OTHER">OTHER</option>
-                    </select>
-                    <div class="textarea">
-                        <label for="contact-commment">Comment:</label>
-                        <textarea name="message" id="contact-comment" cols="30" rows="10" value placeholder="Message" required></textarea>
-                    </div>
-                </div>
-            </form>
+        <div class="contact-form-header">
+            <h6 class="contact-name">Andres Peña</h6>
+            <h2 class="contact-label">CONTACT</h2>
         </div>
-    </div>
+        <div class="contact-form-container">
+            <div class="contact-form">
+            <h4>ONLINE INQUIRY</h4>
+                <label id="name-label" hidden>Name</label>
+                <input class="box" id="name" type="text" placeholder="NAME" required>
+                <label id="email-label" hidden>Email</label>
+                <input class="box" id="email" type="email" placeholder="EMAIL" required>
+                <label id="phone-label" hidden>Phone</label>
+                <input class="box" id="phone" type="tel" placeholder="PHONE" required>
+                <label hidden> Select An Interest</label>
+                <select class="dropdown" id="dropdown">
+                    <option value="">SELECT AN INTEREST</option>
+                    <option value="1">BUYING</option>
+                    <option value="2">SELLING</option>
+                    <option value="3">MEDIA</option>
+                    <option value="4">AREA INFORMATION</option>
+                    <option value="5">HOME VALUATION</option>
+                    <option value="6">OTHER</option>
+                </select>
+                <label class="message" for="messages" hidden>MESSAGE</label>
+                <textarea class="textarea" id="message" name="message" rows="10" cols="40" placeholder="MESSAGE">MESSAGE</textarea>
+                <input class="button" type="submit" id="submit"/>
+            </div>
+            <div class="contact-form-info">
+                <div class="contact-details">
+                    <h4>CONTACT DETAILS</h4>
+                </div>
+            </div>
+        </div>
 </body>
 </html>
