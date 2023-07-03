@@ -166,7 +166,7 @@ li{
 
 .news-links{
     margin: 0;
-    padding: 4rem 1rem;
+    padding: 5rem 1rem;
     text-align: center;
 }
 
@@ -178,7 +178,7 @@ li{
 }
 
 .press-img{
-    height: calc(100% - 8.0rem);
+    height: calc(100% - 20.0rem);
     width: 100%;
     object-fit: cover;
 }
