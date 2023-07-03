@@ -139,19 +139,19 @@ li{
 
 
 /* Blog */
-.blog-container {
+.press-container {
     align-items: center;
     padding-top: 50px;
 }
 
-.blog-header{
+.press-header{
     font-size: 18px;
     line-height: 1.3;
     letter-spacing: 6px;
     text-align: center;
 }
 
-.blog-container p{
+.press-container p{
     font-size: 15px;
     font-weight: 400;
     text-align: center;
