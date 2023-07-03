@@ -138,7 +138,7 @@ li{
 /* Mexico */
 
 
-/* Blog */
+/* Press */
 .press-container {
     align-items: center;
     padding-top: 50px;
@@ -157,6 +157,46 @@ li{
     text-align: center;
     width: 450px;
     margin: 0 auto;
+}
+
+.news-header{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.news-links{
+    margin: 0;
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+.press-grid a{
+    text-decoration: none;
+    color: black;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+}
+
+.press-img{
+    height: calc(100% - 8.0rem);
+    width: 100%;
+    object-fit: cover;
+}
+
+.press-tile{
+    width: 100%;
+    margin: 0;
+    padding: 1rem 0;
+}
+
+.press-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
 }
 
 /* Contact Us */
