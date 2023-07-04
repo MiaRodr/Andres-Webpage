@@ -1,4 +1,4 @@
-/* main page */
+/* Main */
 
 * body{
     font-family:'Times New Roman', Times, serif;
@@ -74,7 +74,7 @@ li{
 }
 
 
-/* about page */
+/* About */
 
 .container{
     display: flex;
@@ -139,6 +139,7 @@ li{
 
 
 /* Press */
+
 .press-container {
     align-items: center;
     padding-top: 75px;
@@ -193,13 +194,13 @@ li{
 .press-tile{
     width: 100%;
     margin: 0;
-    padding: 1rem 0rem;
+    padding: 1rem 1rem;
 }
 
 .press-grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 2fr));
-    grid-gap: 3rem;
+    grid-gap: 1rem;
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
