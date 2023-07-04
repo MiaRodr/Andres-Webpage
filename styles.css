@@ -165,7 +165,6 @@ li{
     padding-bottom: 50px;
 }
 
-/*
 .news-links{
     margin: 0;
     padding: 4rem 4rem;
@@ -176,11 +175,11 @@ li{
     text-decoration: none;
     color: black;
     padding: 1rem 0rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
-*/
+
 .press-img{
-    height: calc(100% - 19rem);
+    height: calc(100% - 20rem);
     width: 100%;
     object-fit: cover;
 }
@@ -193,7 +192,7 @@ li{
 
 .press-grid{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 2fr));
     grid-gap: 3rem;
     width: 100%;
     max-width: 1280px;
